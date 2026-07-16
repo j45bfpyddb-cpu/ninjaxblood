@@ -78,22 +78,14 @@
       animation: appear 1s ease;
     }
 
-    .emblem {
-      width: 110px;
-      height: 110px;
-      margin: 0 auto 24px;
-      display: grid;
-      place-items: center;
-      border-radius: 50%;
-      border: 1px solid rgba(214,180,95,.55);
-      background:
-        radial-gradient(circle, rgba(214,180,95,.18), transparent 65%),
-        #0c0c0c;
-      box-shadow:
-        0 0 45px rgba(214,180,95,.15),
-        inset 0 0 25px rgba(214,180,95,.08);
-      font-size: 52px;
-    }
+    .emblem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+      
 
     .eyebrow {
       color: var(--gold);
@@ -289,7 +281,7 @@
     <section class="hero">
 
       <div class="emblem"><img src="logo.jpg" alt="Ninja xBlood"></div>
-      
+
 
       <div class="eyebrow">ESTRATEGIA • DISCIPLINA • VISIÓN</div>
 
